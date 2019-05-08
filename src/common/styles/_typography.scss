@@ -1,0 +1,82 @@
+p {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+// Font size variations
+
+.font--xlarge {
+	font-size: 42px;
+	line-height: 50px;
+	color: #333333;
+	font-family: "Inter UI", sans-serif;
+}
+
+.font--large {
+	font-size: 28px;
+	line-height: 33px;
+	color: #333333;
+	font-family: "Inter UI", sans-serif;
+}
+
+.font--medium {
+	font-size: 26px;
+	line-height: 31px;
+	color: #333333;
+	font-family: "Inter UI", sans-serif;
+}
+
+.font--small {
+	font-size: 20px;
+	line-height: 24px;
+	color: #333333;
+	font-family: "Inter UI", sans-serif;
+}
+
+.font--defaultHeading {
+	font-size: 16px;
+	line-height: 19px;
+	color: #333333;
+	font-family: "Inter UI", sans-serif;
+}
+
+.font--defaultText {
+	font-size: 14px;
+	line-height: 20px;
+	color: #333333;
+	font-family: "Inter UI", sans-serif;
+}
+
+.font--subheading {
+	font-size: 12px;
+	line-height: 14px;
+	color: #333333;
+	font-family: "Inter UI", sans-serif;
+	text-transform: uppercase;
+}
+
+// Text style variations
+
+.text--subbed {
+	color: #808080;
+}
+
+.text--strong {
+	color: #333333;
+	font-weight: 700;
+}
+
+.text--positive {
+	color: #108043;
+}
+
+.text--negative {
+	color: #bf1d08;
+}
+
+.text--caption {
+	font-size: 12px;
+	line-height: 16px;
+	color: #808080;
+	max-width: 445px;
+}

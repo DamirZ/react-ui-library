@@ -1,0 +1,36 @@
+.dmr-label {
+	display: block;
+	font-family: "Inter UI", sans-serif;
+	color: #333333;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: 700;
+	margin-bottom: 5px;
+	position: relative;
+	user-select: none;
+
+	/* 	&__text {
+		margin-bottom: 5px;
+	} */
+
+	&--required {
+		.dmr-label {
+			&__text::after {
+				content: "*";
+				margin-left: 3px;
+				position: absolute;
+				top: 0;
+				color: #a80000;
+			}
+		}
+	}
+
+	&--rule {
+		border-bottom: 1px solid #000;
+	}
+
+	&--disabled {
+		color: #bbbbbb;
+		cursor: not-allowed;
+	}
+}

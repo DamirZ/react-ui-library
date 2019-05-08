@@ -1,0 +1,12 @@
+# Updating this? Consider updating `.npmignore` as well.
+npm-debug.log
+package-lock.json
+
+tmp
+node_modules
+s3
+coverage
+
+.sass-cache
+.DS_Store
+.idea
